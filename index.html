@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NorthPeak Digital — Web development for teams that ship</title>
+<meta name="description" content="NorthPeak Digital builds fast, precise websites and web apps. Fixed-scope engagements, senior engineers only, no surprises at handoff.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="scroll-progress" id="scroll-progress"></div>
+
+<header>
+  <nav class="nav wrap">
+    <a href="#top" class="logo" aria-label="NorthPeak Digital home">
+      <span class="logo-mark">N</span>
+      NorthPeak Digital
+    </a>
+    <ul class="navlinks" id="navlinks">
+      <li><a href="#top" data-section="top" class="active">Home</a></li>
+      <li><a href="#services" data-section="services">Services</a></li>
+      <li><a href="#results" data-section="results">Results</a></li>
+      <li><a href="#pricing" data-section="pricing">Pricing</a></li>
+      <li><a href="#faq" data-section="faq">FAQ</a></li>
+      <li><a href="#contact" data-section="contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="icon-btn" id="theme-toggle" aria-label="Toggle light and dark theme" title="Toggle theme">
+        <svg id="theme-icon" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 3v2M12 19v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M3 12h2M19 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="12" cy="12" r="4.5" stroke="currentColor" stroke-width="1.6"/></svg>
+      </button>
+      <a href="#contact" class="nav-cta">Let's Talk →</a>
+      <button class="icon-btn hamburger" id="hamburger-btn" aria-label="Open menu" aria-expanded="false">
+        <svg id="hamburger-icon" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </nav>
+  <div class="mobile-menu" id="mobile-menu">
+    <div class="mobile-menu-inner">
+      <a href="#top">Home</a>
+      <a href="#services">Services</a>
+      <a href="#results">Results</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="nav-cta">Let's Talk →</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow-pill"><span class="dot"></span> Fixed-scope web studio</div>
+        <h1>We build the parts of the web that have to <span class="grad">hold weight.</span></h1>
+        <p class="hero-sub">NorthPeak Digital is a small studio of senior engineers who plan the route before we start climbing. Fixed scope, fixed timeline, no surprise invoices at the summit.</p>
+        <div class="hero-ctas">
+          <a href="#contact" class="btn btn-grad">Start a project →</a>
+          <a href="#services" class="btn btn-outline">See what we build</a>
+        </div>
+        <div class="trusted">
+          <div class="trusted-label">Trusted by teams at</div>
+          <div class="trusted-logos">
+            <span>Coastal Supply Co.</span>
+            <span>Loomwell</span>
+            <span>Fieldhouse</span>
+            <span>Marrow Labs</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-orb">
+          <div class="hero-orb-label">120+ builds<br>shipped since 2019</div>
+        </div>
+        <div class="float-card top">
+          <div class="float-num">96%</div>
+          <div class="float-label">On-time delivery</div>
+        </div>
+        <div class="float-card bottom">
+          <div class="float-num">5.5 wks</div>
+          <div class="float-label">Avg. time to launch</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow-sm">What we do</div>
+        <h2>Six ways in, one standard of work</h2>
+        <p class="section-desc">Every engagement gets the same senior team and review process, regardless of which of these it starts as.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="icon-badge" style="background:var(--grad-1);"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2L4 7v10l8 5 8-5V7l-8-5z" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/></svg></div>
+          <h3>Marketing sites</h3>
+          <p>Fast, accessible, built to convert — not just to look good in a portfolio.</p>
+          <a href="#" class="service-link">Learn more →</a>
+        </div>
+        <div class="service-card reveal">
+          <div class="icon-badge" style="background:var(--grad-2);"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M8 6L2 12l6 6M16 6l6 6-6 6" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <h3>Web applications</h3>
+          <p>Dashboards, portals, and internal tools with real data models behind them.</p>
+          <a href="#" class="service-link">Learn more →</a>
+        </div>
+        <div class="service-card reveal">
+          <div class="icon-badge" style="background:var(--grad-3);"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="6" y="2" width="12" height="20" rx="2" stroke="#fff" stroke-width="1.6"/><path d="M11 18h2" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/></svg></div>
+          <h3>E-commerce builds</h3>
+          <p>Shopify and headless storefronts tuned for checkout speed, not just theme polish.</p>
+          <a href="#" class="service-link">Learn more →</a>
+        </div>
+        <div class="service-card reveal">
+          <div class="icon-badge" style="background:var(--grad-1);"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M13 2L3 14h8l-1 8 10-12h-8l1-8z" stroke="#fff" stroke-width="1.4" stroke-linejoin="round"/></svg></div>
+          <h3>Performance audits</h3>
+          <p>We find what's actually slowing your site down and fix it, with before/after numbers.</p>
+          <a href="#" class="service-link">Learn more →</a>
+        </div>
+        <div class="service-card reveal">
+          <div class="icon-badge" style="background:var(--grad-2);"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#fff" stroke-width="1.6"/><path d="M12 7v5l3 3" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/></svg></div>
+          <h3>Design systems</h3>
+          <p>Token-based component libraries your team can extend after we hand off.</p>
+          <a href="#" class="service-link">Learn more →</a>
+        </div>
+        <div class="service-card reveal">
+          <div class="icon-badge" style="background:var(--grad-3);"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 4h16v12H7l-3 3V4z" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/></svg></div>
+          <h3>Ongoing retainers</h3>
+          <p>A standing engineering line for teams shipping features every month, not once a year.</p>
+          <a href="#" class="service-link">Learn more →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STAT BAR -->
+  <section style="padding-top:0;">
+    <div class="wrap">
+      <div class="stat-bar reveal">
+        <div class="stat-item">
+          <div class="stat-icon">🚀</div>
+          <div><div class="stat-num" data-target="120" data-suffix="+">0</div><div class="stat-label">Projects shipped</div></div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon">⏱️</div>
+          <div><div class="stat-num" data-target="5.5" data-suffix=" wks" data-decimals="1">0</div><div class="stat-label">Avg. time to launch</div></div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon">✅</div>
+          <div><div class="stat-num" data-target="96" data-suffix="%">0</div><div class="stat-label">On-time delivery</div></div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon">🏔️</div>
+          <div><div class="stat-num" data-target="7" data-suffix=" yrs">0</div><div class="stat-label">In business</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESULTS -->
+  <section id="results">
+    <div class="wrap">
+      <div class="section-head reveal" style="margin-left:auto; margin-right:auto; text-align:center;">
+        <div class="eyebrow-sm">Testimonials</div>
+        <h2>What clients say once they're at the top</h2>
+      </div>
+      <div class="carousel reveal" id="carousel">
+        <div class="carousel-track">
+          <div class="testimonial-slide active">
+            <div class="testimonial">
+              <div class="quote-mark">"</div>
+              <p class="quote">They gave us a real critical path in week one and never missed a milestone on it. First agency that's felt like an extension of our team.</p>
+              <div class="attribution">
+                <div class="avatar"></div>
+                <div><div class="attribution-name">Dana Whitfield</div><div class="attribution-role">Head of Growth, Coastal Supply Co.</div></div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-slide">
+            <div class="testimonial">
+              <div class="quote-mark">"</div>
+              <p class="quote">Our Lighthouse scores went from the 40s to the low 90s in one sprint. Checkout conversion followed within two weeks of launch.</p>
+              <div class="attribution">
+                <div class="avatar"></div>
+                <div><div class="attribution-name">Marcus Iyer</div><div class="attribution-role">Founder, Loomwell Goods</div></div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-slide">
+            <div class="testimonial">
+              <div class="quote-mark">"</div>
+              <p class="quote">We asked for a scope change mid-build and they told us exactly what it would cost and delay — no vague answers, no scramble.</p>
+              <div class="attribution">
+                <div class="avatar"></div>
+                <div><div class="attribution-name">Priya Chandrasekhar</div><div class="attribution-role">COO, Fieldhouse Analytics</div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-controls">
+          <button class="carousel-arrow" id="carousel-prev" aria-label="Previous testimonial">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="carousel-dots" id="carousel-dots"></div>
+          <button class="carousel-arrow" id="carousel-next" aria-label="Next testimonial">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section id="pricing">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow-sm">Pricing</div>
+        <h2>Three ways to work with us</h2>
+        <p class="section-desc">Fixed-scope pricing. No hourly billing, no surprise change orders.</p>
+        <div class="pricing-toggle" id="pricing-toggle">
+          <button class="active" data-speed="standard">Standard route</button>
+          <button data-speed="rush">Expedited (+20%)</button>
+        </div>
+      </div>
+      <div class="pricing-grid">
+        <div class="price-card reveal">
+          <div class="tier-name">Basecamp</div>
+          <div class="tier-desc">A focused marketing site or landing page, launched clean.</div>
+          <div class="tier-price" data-base="3200">$3,200</div>
+          <ul class="tier-features">
+            <li>Up to 5 pages</li>
+            <li>Responsive build, 3 breakpoints</li>
+            <li>Basic CMS handoff</li>
+            <li>2 rounds of revisions</li>
+          </ul>
+          <a href="#contact" class="btn">Start here</a>
+        </div>
+        <div class="price-card featured reveal">
+          <div class="featured-tag">MOST BOOKED</div>
+          <div class="tier-name">Ascent</div>
+          <div class="tier-desc">A full web app or e-commerce build with a real data layer.</div>
+          <div class="tier-price" data-base="8900">$8,900</div>
+          <ul class="tier-features">
+            <li>Everything in Basecamp</li>
+            <li>Database + admin panel</li>
+            <li>Auth and user accounts</li>
+            <li>Performance audit included</li>
+          </ul>
+          <a href="#contact" class="btn">Start here</a>
+        </div>
+        <div class="price-card reveal">
+          <div class="tier-name">Summit</div>
+          <div class="tier-desc">A multi-surface build with an ongoing engineering retainer.</div>
+          <div class="tier-price" data-base="14000" data-prefix="from ">from $14,000</div>
+          <ul class="tier-features">
+            <li>Everything in Ascent</li>
+            <li>Design system + component library</li>
+            <li>Dedicated engineer, monthly retainer</li>
+            <li>Priority turnaround on requests</li>
+          </ul>
+          <a href="#contact" class="btn">Talk it through</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow-sm">FAQ</div>
+        <h2>Before you reach out</h2>
+        <p class="section-desc">The questions we get on almost every first call.</p>
+      </div>
+      <div class="faq-list reveal">
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Who owns the code once the project ships?
+            <span class="faq-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+          </button>
+          <div class="faq-answer"><div class="faq-answer-inner">You do, fully. We hand off the repository and remove our access once final payment clears — no retained licensing, no vendor lock-in.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            What happens if scope changes mid-project?
+            <span class="faq-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+          </button>
+          <div class="faq-answer"><div class="faq-answer-inner">We write up the change as its own small quote — added cost and added time, in writing — before any work starts on it. Nothing gets absorbed silently into the original scope.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Do you work with teams outside the US?
+            <span class="faq-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+          </button>
+          <div class="faq-answer"><div class="faq-answer-inner">Yes. We're remote-first and keep meeting hours that overlap with US, UK, and most of Europe. Async updates cover the rest.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            How many revision rounds are included?
+            <span class="faq-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+          </button>
+          <div class="faq-answer"><div class="faq-answer-inner">It depends on the tier — Basecamp includes 2 rounds, Ascent includes 4. Additional rounds are billed at a flat per-round rate, agreed upfront.</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="wrap">
+      <div class="contact-panel reveal">
+        <div class="contact-left">
+          <h2>Let's work together</h2>
+          <p>Have a project in mind? Send the basics and we'll reply within one business day.</p>
+          <div class="contact-detail">
+            <div><b>EMAIL</b>hello@northpeak.digital</div>
+            <button class="copy-btn" id="copy-email">Copy</button>
+          </div>
+          <div class="contact-detail"><div><b>RESPONSE TIME</b>Within 1 business day</div></div>
+          <div class="contact-detail"><div><b>BASED IN</b>Remote-first, US hours</div></div>
+        </div>
+        <div class="contact-right">
+          <form id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="field" id="field-name">
+                <label for="name">Your name</label>
+                <input type="text" id="name" name="name" autocomplete="name">
+                <div class="error-msg" id="error-name"></div>
+              </div>
+              <div class="field" id="field-email">
+                <label for="email">Your email</label>
+                <input type="email" id="email" name="email" autocomplete="email">
+                <div class="error-msg" id="error-email"></div>
+              </div>
+            </div>
+            <div class="field" id="field-budget">
+              <label for="budget">Budget range</label>
+              <input type="text" id="budget" name="budget" placeholder="e.g. $5,000 – $10,000">
+              <div class="error-msg" id="error-budget"></div>
+            </div>
+            <div class="field" id="field-message">
+              <div class="label-row">
+                <label for="message">What are you building?</label>
+                <span class="char-count" id="char-count">0 / 500</span>
+              </div>
+              <textarea id="message" name="message" maxlength="500"></textarea>
+              <div class="error-msg" id="error-message"></div>
+            </div>
+            <div class="submit-row">
+              <button type="submit" class="btn btn-grad" id="submit-btn">Send message</button>
+              <span class="form-status" id="form-status" role="status" aria-live="polite"></span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap footer-inner">
+    <div class="footer-credit">© 2026 NorthPeak Digital. All rights reserved.</div>
+    <div class="footer-credit">Built for <a href="https://digitalheroesco.com" target="_blank" rel="noopener">Digital Heroes Training Task</a></div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="back-to-top" aria-label="Back to top">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 19V5M5 12l7-7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
